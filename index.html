@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dzmitry Shchapiorka's CV - Software Engineer
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navigation container">
+            <ul class="navigation__list">
+                <a href="#contact-information">
+                    <li>About</li>
+                </a>
+                <a href="#summary">
+                    <li>Experinece</li>
+                </a>
+                <a href="#skills">
+                    <li>Projects</li>
+                </a>
+                <a href="#experience">
+                    <li>Skills</li>
+                </a>
+                <a href="#education">
+                    <li>Education</li>
+                </a>
+                <a href="#languages">
+                    <li>Languages</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-content">
+        <div class="left-column">
+            <section class="general-info">
+                <img src="./assets/photo.jpg" alt="photo" class="photo">
+                <div>
+                    <h1>Dzmitry Shchapiorka</h1>
+                    <h2>Software Developer</h2>
+                </div>
+            </section>
+            <section id="contact-information">
+                <h2>Contact information: </h2>
+                <address>
+                    <ul>
+                        <li><a href="">location: </a>Kraków, Poland</li>
+                        <li><a href="">phone number: </a>+48 517 590 089</li>
+                        <li><a href="">e-mail: </a>shchapiorka.dzmitry@gmail.com</li>
+                        <li><a href="">github: </a>https://github.com/ShchepaDzmitry</li>
+                    </ul>
+                </address>
+            </section>
+            <section id="summary">
+                <h2>Summary: </h2>
+                <p>Angular Developer with experience in designing, developing and
+                    maintaining scalable web applications using Angular 12+ framework.</p>
+            </section>
+        </div>
+        <div class="right-column">
+            <section id="skills">
+                <h2>Core skills: </h2>
+                <ul>
+                    <li><a href="">HTML5</a></li>
+                    <li><a href="">CSS3</a></li>
+                    <li><a href="">JS</a></li>
+                    <li><a href="">TS</a></li>
+                    <li><a href="">Git</a></li>
+                    <li><a href="">Angular</a></li>
+                </ul>
+            </section>
+            <section id="experience">
+                <h2>Code example: </h2>
+                <code>
+                    function disemvowel(str) {<br>
+                        const vowels = ['a', 'o', 'e', 'u', 'i', 'u'];<br>
+                        return str.split('')<br>
+                                  .filter((el) => !vowels.includes(el.toLowerCase()))<br>
+                                  .join('');<br>
+                      }
+                </code>
+            </section>
+            <section id="education">
+                <h2>Education: </h2>
+                <p>Bachelor of Supply Chain Management | Cracow University of Economics</p>
+            </section>
+            <section id="languages">
+                <h2>Languages: </h2>
+                <ul>
+                    <li><a href="">English: <span>B2</span></a></li>
+                    <li><a href="">Russian: <span>native</span></a></li>
+                    <li><a href="">Polish: <span>C2</span></a></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+            <div class="github">
+                <a href="https://github.com/ShchepaDzmitry">SchepaDzmitry</a>
+                <span>2026</span>
+            </div>
+            <div class="rss-info">
+                <a href="https://rs.school/courses/short-track"><img class="logo" src="assets/logo-rs.svg" alt=""></a>
+            </div>
+    </footer>
+</body>
+</html>
